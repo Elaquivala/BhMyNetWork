@@ -46,7 +46,7 @@ export default {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-    background-color: #317AC1;
+    background-color: #cfcfcf;
     position:absolute;
     left:20px;
 }
@@ -62,7 +62,7 @@ export default {
  
 }
 a{
-    color: #384454;
+    color: #0b7ed0;
     text-decoration: none;
     text-transform: uppercase;
 }

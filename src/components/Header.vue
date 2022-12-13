@@ -6,7 +6,6 @@
            
         </div>
         <div id="right">
-            <h2>Le réseau social des développeurs web</h2>
         </div>
     </header>
 </template>
