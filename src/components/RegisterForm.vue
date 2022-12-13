@@ -1,7 +1,7 @@
 <template>
     <div id="form">
         <div id="form-title">
-            <h2 id="h2-title">Créer un nouveau profil</h2>
+            <h2 id="h2-title">Inscription</h2>
             <img id="form-image" src="../assets/images/user.png" />
         </div>
         <form id="form-main" @submit.prevent="submit">
@@ -55,7 +55,7 @@ export default {
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    background-color: #a1a1a1;
+    background-color: #e5e5e5;
 }
 
 #form-title {
@@ -63,6 +63,7 @@ export default {
     height: 80px;
     display: flex;
     align-items: center;
+    color: #006eff;
 }
 
 #h2-title {
@@ -103,7 +104,7 @@ export default {
     border: 1px solid black;
     font-size: 15px;
     font-weight: 600;
-    background-color: #E1A624;
+    background-color: #006eff;
     color: white;
     cursor: pointer;
     margin-bottom: 20px;

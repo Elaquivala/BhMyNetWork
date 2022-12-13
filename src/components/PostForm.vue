@@ -56,7 +56,7 @@ export default {
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    background-color: #a1a1a1;
+    background-color: #e5e5e5;
 }
 
 #form-title {

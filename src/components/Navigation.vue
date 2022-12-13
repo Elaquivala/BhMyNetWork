@@ -6,7 +6,7 @@
         </div>
         <div id="nav-item" class="nav-separation">
             <img id="nav-image" src="../assets/images/user.png" />
-            <router-link to="/register"><h3>Créer un profil</h3></router-link>
+            <router-link to="/register"><h3>S'inscrire</h3></router-link>
         </div>
         <div id="nav-item">
             <img id="nav-image" src="../assets/images/login.png" />
@@ -46,7 +46,7 @@ export default {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-    background-color: #cfcfcf;
+    background-color: #e5e5e5;
     position:absolute;
     left:20px;
 }
@@ -62,7 +62,7 @@ export default {
  
 }
 a{
-    color: #0b7ed0;
+    color: #006eff;
     text-decoration: none;
     text-transform: uppercase;
 }
