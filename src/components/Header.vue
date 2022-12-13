@@ -1,8 +1,7 @@
 <template>
     <header id="header">
         <div id="left">
-            <img id="img-vue" src="../assets/images/vue.png" />
-            <h1>WebBook</h1>
+            <img id="img-vue" src="../assets/images/mynetwork.png" />
             <h4></h4>
            
         </div>
@@ -21,7 +20,7 @@
 #header {
     width: 100%;
     height: 10vh;
-    background-color: #317AC1;
+    background-color: #ffffff;
     display: flex;
     flex-direction: row;
 }
@@ -33,7 +32,7 @@
     flex-direction: row;
     align-items: center;
     padding-left: 30px;
-    color: white
+    color: rgb(0, 0, 0)
 }
 
 #right {
@@ -43,15 +42,15 @@
     flex-direction: row-reverse;
     align-items: center;
     padding-right: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
 }
 
 
 
 #img-vue {
-    width: 50px;
-    height: 50px;
+    width: 300px;
+    height: 100px;
     margin-right: 10px;
  
 
